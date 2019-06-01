@@ -4,12 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#51b46d"
+    android:padding="50dp"
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Did you know?"
+        android:textColor="#80FFFFFF"
         android:textSize="24sp" />
 
     <TextView
@@ -18,6 +21,7 @@
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:text="Ants stretch when they wake up in the morning."
+        android:textColor="@android:color/background_light"
         android:textSize="24sp" />
 
     <Button
@@ -26,6 +30,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
+        android:background="@android:color/background_light"
         android:text="Show Another Fun Fact" />
 
 </RelativeLayout>
